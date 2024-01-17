@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Patrick Farala - Personal Website</title>
+</head>
+<body>
+
+  <header>
+    <h1>David Patrick R. Farala III</h1>
+    <p><strong>Welcome to my Personal Website</strong></p>
+  </header>
+
+  <nav>
+    <button onclick="toggleSection('about')">About Me</button>
+    <button onclick="toggleSection('portfolio')">My Portfolio</button>
+    <button onclick="toggleSection('contact')">Contact Info</button>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="profile.jpg" alt="Your Name">
+	</div>
+	<br>
+	<hr>
+	<br>
+	  <p><li>I am a Sophomore of National University Fairview and is is currently undertaking Bachellor of Science in Information Technology.</li></p>
+	  <p><li>I chose to study in National University Fairview because of the short distance I will have to travel in order to get to school, that implies that I also live in Fairview.</li></p>
+	  <p><li>I am passionate about gaming, especially on playing League of Legends. A part of my dreams is to become a professional League of Legends player.</li></p>
+	  <p><li>Whenever I am not studying, I'm playing League of Legends most oftenly at home or in the CyberCafe.</li></p>
+	  <p><li>If ever I am not studying and playing League of Legends, I am probably hanging out with my friends and playing basketball.</li></p>
+	  
+	  <h2>Skills</h2>
+	<hr>
+    <p><li>Critical Thinking</li></p>
+	<p><li>UI/UX Designing</li></p>
+	<p><li>Basic Database Management</li></p>
+	<p><li>Basic HTML, CSS, & JavaScript</li></p>
+	<p><li>Problem-solving</li></p>
+	<p><li>Teamwork and collaboration</li></p>
+    
+  </section>
+
+  <section id="portfolio" class="hidden">
+    <h2>Portfolio</h2>
+    <hr>
+    <h4>My Design for the UI/UX Competition held in NU Fairview</h4>
+    <div class="pdf-container">
+      <iframe src="Farala_IT222.pdf" width="100%" height="600px" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="contact" class="hidden">
+    <h2>Contact Information</h2>
+    <hr>
+    <p><b>Email</b>: patrickfarala43@gmail.com</p>
+    <p><b>Phone Number</b>: 0928 945 7546</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
